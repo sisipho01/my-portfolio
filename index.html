@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sisipho Portfolio</title>
+    <link rel="stylesheet" href="styling.css"/>
+    <script src="https://kit.fontawesome.com/be52ce11ec.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header> 
+      <div class="hero">
+        <nav>
+          <h2 class="logo">Portfolio</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects </a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div class="content">
+          <h4>Hello, my name is</h4>
+          <h1>Sisipho Magqwashe</h1>
+        </div>
+    </hearder>
+
+    <section class="about">
+      <div class="about-text">
+        <img src="./images/picture.jpg" />
+          <h3>About Me</h3>
+            <p>
+              I am a Front end dev learner. I enjoy solving complex
+              problems. I can provide clean code and perfect design.
+            </p>
+            <h5>Birthday: 18 May 2001</h5>
+            <h5>Email: magqwashesisipho@gmail.com</h5>
+            <h5>Located: Cape Town</h5>
+          <h4>Skills</h4>
+            <p>HTML, CSS and Javascript</p>
+      </div>
+    </section>
+    
+    <section class="resume">
+      <h2 class="title">Education</h2><br><br>
+        <h5>Salt River Secondary School</h5>
+            <p>January 2014 - December 2018</p>
+            <p>Matric</p><br>
+        <h5>Northlink College</h5>
+            <p>January 2020 - December 2020</p>
+            <p>Fitting and Machining Theory N2</p><br>
+        <h5>Life Choices Academy</h5>
+            <p>26 September 2022 - Present</p>
+            <p>Coding</p><br><br>
+      <h2 class="title">Experience</h2><br><br>
+        <h5>KFC</h5>
+        <ul>
+          <li>Take orders and serve the customers</li>
+          <li>Look after customer needs in the dining area</li>
+          <li>Prepare the orders</li>
+        </ul><br/>
+        <h5>Digital Tribe</h5>
+        <ul>
+          <li>Deal with customer queries by using email</li>
+          <li>Organize workflow to meet customer timeframes</li>
+          <li>Handle and resolve complaints</li>
+        </ul>
+    </section>
+
+    
+      <section class="main">
+        <form action="https://formspree.io/f/xdojdjky" method="post">
+            <h2>Get in touch with Me</h2>
+            <label for="name">Enter name:</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <label for="email">Enter your email:</label><br/>
+            <input type="email" id="email" name="email" /><br />
+            <label for phone="phone">Enter your phone number:</label><br/>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="123-456-7890"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            /><br />
+            <label for="message">Message:</label>
+            <textarea rows="4" cols="50" name="comment" form="usrform">
+              </textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+      </section>
+
+      <section class="social-menu">
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </section>
+
+  </body>
+</html>
